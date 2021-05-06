@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesUIGuilherme", "TestesAPIGuilherme\TestesUIGuilherme.csproj", "{D628AFE1-19CE-4266-ACF7-15558C870113}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D628AFE1-19CE-4266-ACF7-15558C870113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D628AFE1-19CE-4266-ACF7-15558C870113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D628AFE1-19CE-4266-ACF7-15558C870113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D628AFE1-19CE-4266-ACF7-15558C870113}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21ADDE1D-0347-46A4-B0F9-A9221D74B33A}
+	EndGlobalSection
+EndGlobal
