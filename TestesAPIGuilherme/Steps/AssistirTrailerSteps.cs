@@ -19,15 +19,6 @@ namespace TestesAPIGuilherme.Steps
             WebDriver.FindElement(AssistirTrailer.Ano).SendKeys(ano);
             WebDriver.FindElement(AssistirTrailer.Enviar).Click();
 
-
-        }
-        public static void ValidaIdadePermitida()
-        {            
-            Assert.True(WebDriver.FindElement(AssistirTrailer.Trailer).Displayed);
-        }
-        public static void ValidaIdadeNegada()
-        {           
-            Assert.True(WebDriver.FindElement(AssistirTrailer.MensagemIdade).Displayed);
         }
     }
 }
