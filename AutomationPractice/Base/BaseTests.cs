@@ -82,7 +82,7 @@ namespace AutomationPractice.Base
                 File.WriteAllText(Report, File.ReadAllText(Report).Replace("@OUTCOME", "red"));
             }
 
-            try { using (StreamWriter sw = new StreamWriter(Report, true)) { sw.WriteLine($"<center><hr/><h4>Última Tela Apresentada</h4><img style='width:50%;height:50%;' src='data:image/png; base64, {WebDriver.GetScreenshot().AsBase64EncodedString}'/></center><hr/>"); } } catch { }
+            try { using (StreamWriter sw = new StreamWriter(Report, true)) { sw.WriteLine($"<center><hr/><h4>Última tela Apresentada</h4><img style='width:50%;height:50%;' src='data:image/png; base64, {WebDriver.GetScreenshot().AsBase64EncodedString}'/></center><hr/>"); } } catch { }
 
             try { driver.Quit(); } catch { }
 
